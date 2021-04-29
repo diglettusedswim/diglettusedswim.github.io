@@ -1,0 +1,181 @@
+<!-------MOD LOG-------------------------------
+---------DATE: 4/8/2020------------------------
+---------Found template, changed it to be------
+---------my own with own pictures and details--
+---------DATE: 4/9/2020------------------------
+---------Change type speed with some javascript-
+---------in code and changed colors to be a----
+---------darker theam--------------------------
+-----------------------------------------------
+---------DATE: 8/28/2020-----------------------
+---------Added contact form--------------------
+---------DATE: 9/3/2020------------------------
+---------Worked on PHP code------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My personal portfolio website" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/digglett.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/digglett.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/digglett.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <title>Kyle Killian</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <nav id="nav" class="hideNav">
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <div id="home">
+      <div class="showcase">
+        <div class="container">
+          <h1 id="name">
+            Kyle Killian:&nbsp
+            <!--Need this to create space between words-->
+            <span
+              class="txt-type"
+              data-wait="1500"
+              data-words='["Web Developer", "Student", "Programmer", "Web Designer",  "App Developer"]'
+            >
+            </span>
+          </h1>
+          <h2 id="welcome">
+            Contact me:
+            <a href="mailto:kylekillian@my.cwi.edu" target="_top"
+              >kylekillian@my.cwi.edu</a
+            >
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects">
+      <h2 class="projectsHeader">Projects</h2>
+      <div id="img">
+        <div class="img">
+          <a href="https://pi3m5.csb.app/" target="_blank" rel="noreferrer"
+            ><img src="./img/pokedex.png" alt="pokedex site"
+          /></a>
+          <h3>Pokedex</h3>
+          <p>The original 150 pokemon</p>
+          <p class="p-border">Built with React, javascript, and Node!</p>
+        </div>
+        <div class="img">
+          <a href="https://27slu.csb.app/" target="_blank" rel="noreferrer">
+            <img src="./img/hOdd-spoon-3368750_1920.jpg" alt="Herb Website"
+          /></a>
+          <h3>Herb Website</h3>
+          <p>Idea from Dungeons and Dragons</p>
+          <p class="p-border">Built with Vue!</p>
+        </div>
+        <div class="img">
+          <a
+            href="https://sharemygame.com/@Diglettusedswim/invasion-of-the-space-octopus"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./img/Videogame.png" alt="VideoGame I built"
+          /></a>
+          <h3>Video Game</h3>
+          <p>invasion of the space octopus</p>
+          <p class="p-border">built with Unity!</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Social Media Break-->
+
+    <div id="projects">
+      <h2 class="projectsHeader">Social Media</h2>
+      <div id="img">
+        <div class="img">
+          <a
+            href="https://www.linkedin.com/in/kyle-killian-9640141a6/"
+            target="_blank"
+            rel="noreferrer"
+            ><img
+              src="./img/linkedin-101-hero@2x-901x475.png"
+              alt="LinkedIn Page"
+          /></a>
+          <h3>Youtube Channel</h3>
+          <p>Youtube Subscribers 23</p>
+        </div>
+
+        <div class="img">
+          <a
+            href="https://github.com/diglettusedswim"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./img/github.png" alt="Github Profile"
+          /></a>
+          <h3>Github</h3>
+          <p>My profile on GitHub</p>
+        </div>
+      </div>
+    </div>
+
+    <!--About me break-->
+    <div id="about">
+      <div class="aboutClass">
+        <h2>About Me</h2>
+        <p>
+          I am currently working on getting my computer scince degree from
+          College of Western idaho.
+        </p>
+        <p>
+          I am a determined and self motivated Developer learning to be
+          specializing in Languages/Frameworks such as C#, Unity, JavaScript,
+          React, Vue, Node, Bootstrap, HTML, and CSS.
+        </p>
+      </div>
+    </div>
+
+    <!--Footer Break-->
+
+    <footer id="footer" class="hideNav">
+      <p>
+        Find me on
+        <a
+          href="https://github.com/diglettusedswim"
+          target="_blank"
+          rel="noreferrer"
+          >GitHub</a
+        >
+        and
+        <a
+          href="https://www.linkedin.com/in/kyle-killian-9640141a6/"
+          target="_blank"
+          rel="noreferrer"
+          >LinkedIn</a
+        >
+        or contact me
+        <a href="contact.html" target="_blank" rel="noreferrer">here!</a>
+      </p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
